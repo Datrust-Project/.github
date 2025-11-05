@@ -75,14 +75,14 @@ flowchart TD
 
 ## Project Consortium
 
-**- University of Pisa (UniPi)**
+- **University of Pisa (UniPi)**
   - Antonio Virdis (Principal Investigator)
   - Enzo Mingozzi
   - Laura Lemmi
-**- University of Modena and Reggio Emilia (UniMoRe)**
+- **University of Modena and Reggio Emilia (UniMoRe)**
   - Marco Picone (Substitute Principal Investigator)
   - Nicola Bicocchi
-**- University of Ferrara (UniFe)**
+- **University of Ferrara (UniFe)**
   - Carlo Giannelli (Unit Coordinator)
   - Mattia Fogli
 
