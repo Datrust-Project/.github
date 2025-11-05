@@ -21,6 +21,51 @@ This project aims at building a distributed platform rooted around the following
 - Definition and implementation of a unified computing and networking infrastructure for supporting data collection/sharing between physical objects and software services, and relying on a middle-layer of DTs.
 - Definition and implementation of the methodologies and algorithms for deploying, (re)configuring, maintaining and observing DTs and their interaction with physical objects and software services, to support trustworthy data flows.
 
+## Project Modules Structure
+
+```mermaid
+flowchart TD
+ subgraph L1["<br>"]
+    direction TB
+        P["Trustworthy Digital Twin Platform"]
+        I["Implementation"]
+        T["Trustworthy Digital Twin"]
+        E["Physical Twin Emulator"]
+  end
+ subgraph L2[" "]
+    direction TB
+        SE["Simulation Environment"]
+        S["Simulation"]
+        T2["Trustworthy Digital Twin Simulation"]
+        T3["Deployment & Platform Simulation"]
+        T4["Physical Twins</br>Simulation"]
+  end
+    A["DATRUST Project"] --> I & S
+    I --> P
+    P --> T
+    T --> E
+    S --> SE
+    SE --> T2 & T3 & T4
+
+     P:::platform
+     I:::branch
+     T:::twin
+     E:::physical
+     SE:::sim
+     S:::branch
+     T2:::twin
+     T3:::physical
+     T4:::physical
+     A:::main
+    classDef main fill:#004080,stroke:#fff,color:#fff,font-weight:bold,font-size:18px
+    classDef branch fill:#0059b3,stroke:#003366,stroke-width:2px,color:#fff,font-weight:bold
+    classDef platform fill:#66b3ff,stroke:#004080,stroke-width:2px,color:#000,font-weight:bold
+    classDef twin fill:#99cc66,stroke:#336600,stroke-width:2px,color:#000,font-weight:bold
+    classDef sim fill:#ff9999,stroke:#800000,stroke-width:2px,color:#000,font-weight:bold
+    classDef physical fill:#ffcc66, stroke:#b37f00, stroke-width:2px, color:#000, font-weight:bold
+    style T3 fill:#FF6D00
+```
+
 ## Project Repositories
 
 - Physical Twin Emulator [Link](https://github.com/Datrust-Project/physical-twin-emulator)
