@@ -72,3 +72,17 @@ flowchart TD
 - Trustworthy Digital Twin (TDT) [Link](https://github.com/Datrust-Project/trustworthy-digital-twin)
 - Trustworty Digital Twin Platform [Link](https://github.com/Datrust-Project/trustworty-digital-twin-platform)
 - Simulation [Link](https://github.com/Datrust-Project/Simu5G-DigitalTwins)
+
+## Project Consortium
+
+**- University of Pisa (UniPi)**
+  - Antonio Virdis (Principal Investigator)
+  - Enzo Mingozzi
+  - Laura Lemmi
+**- University of Modena and Reggio Emilia (UniMoRe)**
+  - Marco Picone (Substitute Principal Investigator)
+  - Nicola Bicocchi
+**- University of Ferrara (UniFe)**
+  - Carlo Giannelli (Unit Coordinator)
+  - Mattia Fogli
+
