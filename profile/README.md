@@ -23,7 +23,7 @@ This project aims at building a distributed platform rooted around the following
 
 ## Project Repositories
 
-- Physical Twin Emulator
-- Trustworthy Digital Twin (TDT)
-- Trustworty Digital Twin Platform 
-- Simulation
+- Physical Twin Emulator [Link](https://github.com/Datrust-Project/physical-twin-emulator)
+- Trustworthy Digital Twin (TDT) [Link](https://github.com/Datrust-Project/trustworthy-digital-twin)
+- Trustworty Digital Twin Platform [Link](https://github.com/Datrust-Project/trustworty-digital-twin-platform)
+- Simulation [Link](https://github.com/Datrust-Project/Simu5G-DigitalTwins)
